@@ -1,0 +1,45 @@
+SQl	- It is a lang ---Mysql is a server.
+	  SQL is a RDBMS lang.
+DBMS	- Can't store data in column,row --File form can store images etc.
+RDBMS	- Can store in column and row.
+
+wisdom ---> 		Gift
+Knowledge -->		Birthdate
+Information -->		29/03/1998
+Data-------> 		29031998
+
+After starting server -
+mysql -h localhost -u root -p
+mysql -h localhost -u root 
+mysql -u root
+
+Data Types
+Numeric --> int, float, double
+String --->Char(can't take integer), Varchar(can take integer), blob(Binary Large Object)
+Datetime -->date, time, year
+
+1. CREATE DATABASE Students
+2. USE Database
+3. CREATE TABLE Student(id int, name varchar(20),contact int, address varchar(20));
+4. SHOW TABLES
+5. DESC tableName
+  
+
+Types of language
+1.Data Defination language
+-->Create table 
+  			--INSERT INTO student VALUES
+   			 To insert into specific values--> INSERT INTO table_name(id,name)VALUES
+2. Alter
+-- Alter table	--	 ALTER TABLE table_name ADD COLUMN column name-data type
+   After column	--	 ALTER TABLE employees ADD COLUMN surname varchar(10) AFTER name;
+   first Column --	 ALTER TABLE employees ADD COLUMN surname varchar(10) FIRST;
+   Change Column name -- ALTER TABLE employes CHANGE name fist_name varchar(20);
+   Rename Table		 ALTER TABLE employees RENAME ....
+
+   DROP table --	ALTER TABLE employees DROP table_name
+			- To delete whole table
+   			
+   TRUNCATE 		TRUNCATE table_name
+			- Use to delete column.
+  
