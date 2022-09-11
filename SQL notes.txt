@@ -31,7 +31,7 @@ Types of language
   			--INSERT INTO student VALUES
    			 To insert into specific values--> INSERT INTO table_name(id,name)VALUES
 2. Alter
--- Alter table	--	 ALTER TABLE table_name ADD COLUMN column name-data type
+   Alter table	--	 ALTER TABLE table_name ADD COLUMN column name-data type
    After column	--	 ALTER TABLE employees ADD COLUMN surname varchar(10) AFTER name;
    first Column --	 ALTER TABLE employees ADD COLUMN surname varchar(10) FIRST;
    Change Column name -- ALTER TABLE employes CHANGE name fist_name varchar(20);
@@ -42,4 +42,15 @@ Types of language
    			
    TRUNCATE 		TRUNCATE table_name
 			- Use to delete column.
+
+2.Data Manipulation langugae -
+INSERT,
+DELETE - DELETE from "TABLE NAME " WHERE "---";
+
+UPDATE  -UPDATE cricketPlayers SET "----" WHERE "-----";
+	-TO Update multiple values - UPDATE tableName WHERE id IN** (VALUES)
+	- UPDATE cricketPlayers SET age=40 WHERE "---" OR "---";
+
+3.Data Query language -
+SELECT	 -  select first_name,last_name from tablename WHERE "--";
   
