@@ -3,10 +3,23 @@ SQl	- It is a lang ---Mysql is a server.
 DBMS	- Can't store data in column,row --File form can store images etc.
 RDBMS	- Can store in column and row.
 
+What is difference between sql and mysql -  SQL is a language for querying databases and MySQL is an open source database product. 
+
+DIKW Strucutre -
 wisdom ---> 		Gift
 Knowledge -->		Birthdate
 Information -->		29/03/1998
 Data-------> 		29031998
+
+What is Database ? 
+How we can create connection with SQL ?
+What is Data Type and Its types ?
+Types of SQL Command.
+
+Diff between Truncate, Drop, Delete.
+Delete - 
+It is used to delete one or more tuples of a table. 
+DELETE from ..WHERE..
 
 After starting server -
 mysql -h localhost -u root -p
@@ -34,7 +47,7 @@ Types of language
    Alter table	--	 ALTER TABLE table_name ADD COLUMN column name-data type
    After column	--	 ALTER TABLE employees ADD COLUMN surname varchar(10) AFTER name;
    first Column --	 ALTER TABLE employees ADD COLUMN surname varchar(10) FIRST;
-   Change Column name -- ALTER TABLE employes CHANGE name fist_name varchar(20);
+   Change Column name -- ALTER TABLE employees CHANGE name fist_name varchar(20);
    Rename Table		 ALTER TABLE employees RENAME ....
 
    DROP table --	ALTER TABLE employees DROP table_name
@@ -47,10 +60,40 @@ Types of language
 INSERT,
 DELETE - DELETE from "TABLE NAME " WHERE "---";
 
-UPDATE  -UPDATE cricketPlayers SET "----" WHERE "-----";
-	-TO Update multiple values - UPDATE tableName WHERE id IN** (VALUES)
+UPDATE  - UPDATE cricketPlayers SET "----" WHERE "-----";
+	- TO Update multiple values - UPDATE tableName WHERE id IN** (VALUES)
 	- UPDATE cricketPlayers SET age=40 WHERE "---" OR "---";
 
 3.Data Query language -
 SELECT	 -  select first_name,last_name from tablename WHERE "--";
-  
+
+To find between result between two Ids
+-  select * from employee where id>=105 and id<=115;
+-  select * from employee where id between 108 and 114;
+-  select * from employee where first_name='kunal' and first_name='prem';
+-  select * from employee where first_name='kunal' or first_name='prem'; 
+-  select * from employee where first_name in("rakesh","prem");
+-  select * from employee where first_name not in("rakesh","prem");
+
+
+LIMIT Command - To get the record upto certain limit,
+		- select * from employee limit 1;
+		- select * from employee limit 3,5; id from 3 to 5 record will show;
+
+as command      - select salary+bonus as salary from employees;
+		- select salary + 15000 as updated_salary from employees;
+		- select salary - penalty as total_salary from employees;
+
+Order by clause - 
+- select * from employees order by name; -- will give data in ascending order
+- select * from employees order by name desc;-- will give in descending order,
+
+offset -
+- select * from employees limit 5 offset 6; show 5 record from 6th row.
+
+NOT - select * from employees where not salary between 20000 and 40000;
+
+Like - 
+- will give the same design data
+- select * from employees where name like '%t';
+- select * from employees where name like '__k%';
