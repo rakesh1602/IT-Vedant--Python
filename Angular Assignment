@@ -1,0 +1,74 @@
+Explain how to create and run angular application.
+
+To create angular project - we should install nodeJs in our system then follow following commands  
+
+Step-1: Install angular cli
+npm install - g @angular/cli
+
+Step-2: Create new project by this command
+- ng new myNewApp
+Choose yes for routing option and, CSS or SCSS.
+
+Step-3: Go to your project directory
+cd myNewApp
+
+Step-4: Run server and see your application in action
+ng serve -o 
+
+
+Write the features of angular
+Angular is a cross platform language. It supports multiple platforms. You can build different types of apps by using Angular.
+
+Desktop applications: Angular facilitates you to create desktop installed apps on different types of operating systems i.e. Windows, Mac or Linux by using the same Angular methods which we use for creating web and native apps.
+Native applications: You can built native apps by using Angular with strategies from Cordova, Ionic, or NativeScript.
+Progressive web applications: Progressive web applications are the most common apps which are built with Angular. Angular provides modern web platform capabilities to deliver high performance, offline, and zero-step installation apps.
+High Speed, Ultimate Performance
+Angular is amazingly fast and provides a great performance due to the following reasons:
+
+Universal support: Angular can be used as a front-end web development tool for the programming languages like Node.js, .Net, PHP, Java Struts and Spring and other servers for near-instant rendering in just HTML and CSS. It also optimizes the website for better SEO.
+Code splitting: Angular apps are fast and loads quickly with the new Component Router, which delivers automatic code-splitting so users only load code required to render the view they request.
+Code generation: Angular makes your templates in highly optimized code for today?s JavaScript virtual machines which gives the benefits of hand-written code.
+Productivity
+Angular provides a better productivity due to its simple and powerful template syntax, command line tools and popular editors and IDEs.
+
+Powerful templates: Angular provides simple and powerful template syntax to create UI view quickly.
+IDEs: Angular provides intelligent code completion, instant errors, and other feedback in popular editors and IDEs.
+Angular CLI: Angular CLI provides command line tools start building fast, add components and tests, and then instantly deploy.
+
+
+
+
+
+
+
+Data Binding in Angular 
+Data binding is the core concept of Angular 8 and used to define the communication between a component and the DOM. It is a technique to link your data to your view layer. In simple words, you can say that data binding is a communication between your typescript code of your component and your template which user sees. It makes easy to define interactive applications without worrying about pushing and pulling data.
+
+Data binding can be either one-way data binding or two-way data binding.
+
+One-way databinding
+One way databinding is a simple one way communication where HTML template is changed when we make changes in TypeScript code.
+
+In one-way databinding, the value of the Model is used in the View (HTML page) but you can't update Model from the View. Angular Interpolation / String Interpolation, Property Binding, and Event Binding are the example of one-way databinding.
+
+Two-way databinding
+In two-way databinding, automatic synchronization of data happens between the Model and the View. Here, change is reflected in both components. Whenever you make changes in the Model, it will be reflected in the View and when you make changes in View, it will be reflected in Model.
+
+Angular provides four types of data binding and they are different on the way of data flowing.
+
+String Interpolation
+Property Binding
+Event Binding
+Two-way binding
+
+String interpolation
+String Interpolation is a one-way databinding technique which is used to output the data from a TypeScript code to HTML template (view). It uses the template expression in double curly braces to display the data from the component to the view.
+
+Property Binding
+Property Binding is also a one-way data binding technique. In property binding, we bind a property of a DOM element to a field which is a defined property in our component TypeScript code.
+
+Event Binding
+In Angular 8, event binding is used to handle the events raised from the DOM like button click, mouse move etc. When the DOM event happens (eg. click, change, keyup), it calls the specified method in the component
+
+Two-way Data Binding
+We have seen that in one-way data binding any change in the template (view) were not be reflected in the component TypeScript code. To resolve this problem, Angular provides two-way data binding. The two-way binding has a feature to update data from component to view and vice-versa.
