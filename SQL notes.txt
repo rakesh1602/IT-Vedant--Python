@@ -97,3 +97,19 @@ Like -
 - will give the same design data
 - select * from employees where name like '%t';
 - select * from employees where name like '__k%';
+
+
+Functions --
+https://www.w3schools.com/sql/sql_ref_mysql.asp
+String - 
+- select ASCII ('t');
+- select concat ('rakesh','chavan');
+Math 
+Date
+1. To reuse function.
+
+
+
+What is 
+- Limit, offset, orderby, distinct, where
+- Operators
