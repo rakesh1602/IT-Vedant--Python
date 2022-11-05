@@ -1,0 +1,126 @@
+
+30/10/2022 -
+
+1. Logic Building
+
+Algoritham -
+
+Addition -->
+1.start
+2. Enter a value
+3. Enter b value
+4. result=a+b
+5. print result
+6. stop
+
+Temp in Fer to celc -->
+
+1. Start
+2. Enter Fer value
+3. celcious=5/9 *
+5. stop (f-32)
+4. print celcious
+5. Stop
+
+Area of Circle -->
+
+1. Start
+2. Enter radius of circle
+3. areaOfCircle=3.14*radius*radius
+4. print areaOfCircle
+5. stop
+
+Simple Interest -->
+
+1. Start
+2. Enter principle amount
+3. Enter number of years
+4. Enter rate of interest
+4. simpleInterest=principle*years*interest
+5. print simpleInterest
+6. stop
+
+Gross Salary -->
+
+1. start
+2. Enter totalSalary
+3. Enter deductions
+4. grossSalary=totalSalary-deductions
+5. print grossSalary
+
+Avg and Percentage --->
+
+1. start
+2. Enter m1,m2,m3,m4,m5
+3. total=m1+m2+m3+m4+m5
+5. avg=total/500
+5. per=avg*100
+6. stop
+
+
+Area and Perimeter -->
+1. start
+2. Enter length
+3. Enter width
+4. area=length*width
+5. perimeter=2*(length+width)
+6. print area+perimeter
+7. stop
+
+Swapping of numbers -->
+1. start
+2. enter a,b values
+3. Before swapping values of a " + a + " " + "b " +b
+4. temp=a
+5. a=b
+6. b=temp
+7. after swapping values of a " + a + " " + "b " + b
+
+
+Operators -->
+
+Arithmetic operators
+
+a/b=divison
+a//b=floor division --will give the answer in whole number (Quotient)
+a%b=module (reminder)
+**==exponent-->2**10--->2 raise to 10
+
+example --
+a=5, b=2
+5+2=
+5-2=
+5/2=
+5//2=
+5%2=
+5**2=
+
+Comparison Operators
+- Output will be bollean values
+a=b, b=2
+a==b=false
+a>==true
+a<=b=false
+a!-b=true
+
+Logical Operators
+AND
+OR 
+NOT
+
+AND
+T T T
+T F F
+F T F
+F F F
+
+OR
+T  T T
+T  F T
+F  T T
+F  F F
+
+NOT
+T F
+F T
+
