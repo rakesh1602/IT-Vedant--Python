@@ -124,3 +124,78 @@ NOT
 T F
 F T
 
+
+---------------------------------------------------------------------------------------------
+
+05-11-22
+
+Introduction to Python -->
+
+- Guido van Rpssum - desginer - 1991.
+- High level -like english
+- Interpretd - line by line execution of program.
+- Scripting languages.
+
+Features -->
+
+- simple and easy to learn.
+- Interpreted language  - Line by line execution of the program.
+- Open source
+- Platform independent.
+- High level programming language - Straightforward for a programmer to convert an algorithm into program code. A low-level language is machine-oriented. Low-level   programs are expressed in terms of the machine operations that must be performed to carry out a task.
+- Dynamically types language - No need to mentioned data types.
+- Indentation - space - there is no bracket { } we use space.
+- Standard library - more than 2 lakh library - ex for games, development.
+
+Application (Uses) --->
+- Desktop application.
+- Web application.
+- Database application.
+- Games.
+- Data analysis
+- Machine learning
+- Artifical intelligence.
+
+
+IDE -
+Anaconda
+
+Start -->
+Identifier - Any name in python is called a identifier.
+
+Rules for declaring identifiers -->
+- Identifier should start with alphabets only, it should not start with digits,special case expect a_12;
+- Identifiers are case sensative.For example
+	total=100
+	Total=200
+	print(total)
+	-- 100
+	print(Total)
+	--200
+
+- We cannot use reserved words as a identifiers.
+- There is no length limit for the pyton identifiers.
+
+Data Types -
+Fundamental/immutable ++ tuple
+- int
+- float
+- Boolean
+
+Sequence Data type
+- String
+- List
+- Tuples
+- List
+- Set
+- Dictionary
+
+Mutable
+- String
+- List
+- Set
+- Doc
+
+# By default input take string values to take any other values typcast it by int(input())
+
+
