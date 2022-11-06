@@ -17,8 +17,8 @@ Temp in Fer to celc -->
 
 1. Start
 2. Enter Fer value
-3. celcious=5/9 *
-5. stop (f-32)
+3. celcious=5/9 * (f-32)
+5. stop 
 4. print celcious
 5. Stop
 
@@ -184,11 +184,10 @@ Fundamental/immutable ++ tuple
 
 Sequence Data type
 - String
-- List
-- Tuples
-- List
-- Set
-- Dictionary
+- List = [ ]
+- Tuples = ( )
+- Set ={ }
+- Dictionary={'Name':abc',}
 
 Mutable
 - String
@@ -197,5 +196,46 @@ Mutable
 - Doc
 
 # By default input take string values to take any other values typcast it by int(input())
+
+---------------------------------------------------------------------------------------------
+06-11
+
+String --->
+Slicing & indexing
+
+String = "pyhton programming"
+- to get multiple char - use slice
+- to get single char - use indexing
+- for indexing - print(string[0])
+- Python suppot negative indexing - print(string[-1])
+
+- Slicing - [start:stop:step]
+- step size =1 
+- print("slicing ", (string[0:5]))
+- print("slicing till last index ", (string[7:]))
+- print("with step size ",string[0:23:3])
+
+
+Reverser order string - print("reverse order ", string[-1::-1])
+
+We can do the following operations on string - 
+#Mathematical operations
+# + = concatation
+# *  = multiple copies
+
+#Finding substring
+#find 
+print(s3.find("hello"))
+- if present - index - else -1
+
+To find the char at after or at specing indexes 
+- print(s3.find("pk",4,-1))
+- can mentioned the index positions after word
+
+Index method will give the error insted of -1 value
+#index
+print(s3.index("hello"))
+print(s3.index("pk",4,-1))
+
 
 
