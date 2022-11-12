@@ -237,5 +237,13 @@ Index method will give the error insted of -1 value
 print(s3.index("hello"))
 print(s3.index("pk",4,-1))
 
+--------------------------------------------------------------------------------
+
+12-11-22
+
+List - Ordered collection of hetrogenrous element which are mutable.
+
+
+
 
 
