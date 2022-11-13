@@ -244,6 +244,28 @@ print(s3.index("pk",4,-1))
 List - Ordered collection of hetrogenrous element which are mutable.
 
 
+Range funtion  -
 
+1. default expression (start:stop:step)
+2.last index excluded
+3. step size 1
+
+
+---------------------------------------------------------------------------------
+13-11-22
+
+Tuple - ordered, collection of hetrogenous elements, immutable.
+tuple(, ,) or use tuple cons
+
+Set - Unordered,dulicates not allowed,collection of hetrogenous elements,mutable
+Set {}
+
+
+Dictionary -
+- Key and value pair
+- key are immutable and values are mutable
+- Duplicate key are not allowed, but value are allowed.
+- Indexing and slicing not applicable.
+- {key, value} or dict{}
 
 

@@ -1,0 +1,16 @@
+What are the feature of Python?
+
+- Easy to Learn and Use
+Python is easy to learn as compared to other programming languages. Its syntax is straightforward and much the same as the English language. There is no use of the semicolon or curly-bracket, the indentation defines the code block. It is the recommended programming language for beginners.
+
+- Interpreted Language
+Python is an interpreted language; it means the Python program is executed one line at a time. The advantage of being interpreted language, it makes debugging easy and portable.
+
+- Expressive Language
+Python can perform complex tasks using a few lines of code. A simple example, the hello world program you simply type print("Hello World"). It will take only one line to execute, while Java or C takes multiple lines.
+
+- Platform independent
+Python can run equally on different platforms such as Windows, Linux, UNIX, and Macintosh, etc. So, we can say that Python is a portable language.
+
+- Free and Open Source
+Python is freely available for everyone.

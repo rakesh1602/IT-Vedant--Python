@@ -1,0 +1,12 @@
+What are the different way of writing comment in python?
+
+Type of comments in python- 
+- Single-Line Comments
+# printing a string
+print('Hello world')
+
+-Multi-Line Comments 
+
+# it is a
+# multiline
+# comment
